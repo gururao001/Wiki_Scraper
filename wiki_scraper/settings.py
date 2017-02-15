@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for kaleo_software project
-#
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
 #
