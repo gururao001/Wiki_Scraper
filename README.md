@@ -1,17 +1,14 @@
 Web Scraper that scraps information from any wikipedia category, outputs json file of scraped material and allows you to search the information.
 
------------------------
-COMMAND LINE ARGUMMENTS
------------------------
+COMMAND LINE ARGUMENTS
 
 ./install.sh-----> To install scrapy. (Make sure python 2.x and pip are installed)
 ./download.sh "list_of_categories.txt" -----> To scrape all the categories from list_of_categories text file. All the scrape results are stored in items.txt file.
 ./search.sh "query_thing_you_want_to_search_for" "yes/no option_to_display_text or letter of wikipedia category" -----> eg: ./search.sh "machine learning" "no". Displays top 5 results based on tfidf ranking.
 
 
--------------------------------------
+
 DESIGN DECISIONS AND SOME EXPLANATION
--------------------------------------
 
 
 PART 1 ----- DATA COLLECTION
