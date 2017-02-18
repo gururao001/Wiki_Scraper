@@ -1,6 +1,6 @@
 Web Scraper that scraps information from any wikipedia category, outputs json file of scraped material and allows you to search the information.
 
-# COMMAND LINE ARGUMENTS
+## COMMAND LINE ARGUMENTS
 
 ./install.sh-----> To install scrapy. (Make sure python 2.x and pip are installed)
 
@@ -12,11 +12,11 @@ Web Scraper that scraps information from any wikipedia category, outputs json fi
 
 
 
-# DESIGN DECISIONS AND SOME EXPLANATION
+## DESIGN DECISIONS AND SOME EXPLANATION
 
 
-## PART 1
-### DATA COLLECTION
+### PART 1
+#### DATA COLLECTION
 
 * What is it?
 
@@ -61,8 +61,8 @@ Being nice and not getting IP banned
 
 
 
-## PART 2
-### SEARCH
+### PART 2
+#### SEARCH
 
 * What is it?
 Set of relevant articles are displayed according to tfidf ranking based on user's search query.
